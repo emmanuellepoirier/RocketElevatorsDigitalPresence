@@ -1,7 +1,7 @@
-/** Red	#b30000
+/** Red	#A94545
  **************************************************************** **/
 	::selection {
-		background: #b30000;
+		background: #A94545;
 	}
 	::-moz-selection {
 		background: #b30000; /* Firefox */
