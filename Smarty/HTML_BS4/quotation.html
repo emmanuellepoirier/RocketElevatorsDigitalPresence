@@ -198,82 +198,137 @@
 
 			</div>
 
-			<!-- -->
+			<!--Quotation Form -->
 			<section>
-				<div class="container">
-					
-					<p class="lead">Detail of service here</p>
-					
-					<div class="divider divider-center divider-color:red"><!-- divider -->
-						<i class="fa fa-chevron-down"></i>
-					</div>
+                <div class="container">
+                
+                <form action="" id="elevatorquoteform" onsubmit="return false;">
+                var theForm = document.forms["elevatorquoteform"];
 
-					<!-- BORN TO BE A WINNER -->
-					<article class="row">
-						<div class="col-md-6">
-							<!-- OWL SLIDER -->
-							<div class="owl-carousel buttons-autohide controlls-over m-0" data-plugin-options='{"items": 1, "autoHeight": true, "navigation": false, "pagination": false, "transitionStyle":"none", "progressBar":"false"}'>
-								<div>
-									<img class="img-fluid" src="demo_files/images/thematics/construction/residential-elevator-cost-Staircase-Contemporary-with-beach-house-beige-floor.jpg" alt="">
-								</div>
-								<div>
-									<img class="img-fluid" src="demo_files/images/mockups/800x553/17-min.jpg" alt="">
-								</div>
-								<div>
-									<img class="img-fluid" src="demo_files/images/mockups/800x553/3-min.jpg" alt="">
-								</div>
-								<div>
-									<img class="img-fluid" src="demo_files/images/mockups/800x553/2-min.jpg" alt="">
-								</div>
-							</div>
-							<!-- /OWL SLIDER -->
-							
-						</div>
-						<div class="col-md-6">
-							<h3>Rocket Elevators residential solutions </h3>
-							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-							
-							<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
-							
-							<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</p>
-							
-							<p>Enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-						</div>
-					</article>
-					<!-- /BORN TO BE A WINNER -->
+                <fieldset>
 
-				</div>
-			</section>
+                    <legend>GET YOUR QUOTE</legend>
 
-			<!-- 
-			CALLOUT
+                    <!-- Type of Building-->
+                    <!-- Name of radio button for this section - typeOfBuilding-->
+                    <label >Type of building</label>
 
-			FULLWIDTH: OUTSIDE OF <section> 
+                <p>
+                    <input type="radio"  name="typeOfBuilding" value="residential"
+                     />
+                    Residential
+                    <input type="radio"  name="typeOfBuildingg" value="commercial"
+                    />
+                    Commercial
+                    <input type="radio"  name="typeOfBuilding" value="corporate"
+                     />
+                    Corporate
+                    <input type="radio"  name="typeOfBuilding" value="hybrid"
+                     />
+                    Hybrid
+                </p>
+                   
+                <script> 
+                
+                        var typeOfBuilding = typeOfBuilding(residential)
+                        var typeOfBuilding = typeOfBuilding(commercial)
+                        var typeOfBuilding = typeOfBuilding(corporate)
+                        var typeOfBuilding = typeOfBuilding(hybrid)
+                        var typeOfBuilding(residential) = 0
+                        var typeOfBuilding(commercial) = 0
+                        var typeOfBuilding(corporate) = 0
+                        var typeOfBuilding(hybrid) = 0
+                    
+                        if(typeOfBuilding = typeOfBuilding(residential){  
+                            <input type="text"  id="numAppartment" name="Number of appartment" value="Enter Inscription"  />
+                        }  
 
-				Available Classes:
-				alert-default
-				alert-info
-				alert-warning
-				alert-danger
-				alert-success
-				alert-dark
-			-->
+                        </script> 
 
-			<div class="callout alert alert-transparent b-0 rad-0 m-0 pt-60 pb-60 clearfix">
+                    <!-- 1 - If Statement- Residential - numAppartment; numFloor; numBasement-->
+                    <!-- 1 - If Statement- Commercial - numCommerce; numFloor; numBasement; numParking; numElevator-->
+                    <!-- 1 - If Statement- Corporate - numEnterprise; numFloor; numBasement; numParking; numMaxOccupancyPerFloor-->
+                    <!-- 1 - If Statement- Hybrid - numCommerce; numFloor; numBasement; numParking; numMaxOccupancyPerFloor; numHourActivity (max 24h)-->
+                <!-- } { -->
 
-				<div class="text-center">
+                   
+                    <!--Number of Appartment(s) <input type="text"  name="number" id="numAppartment" /> <br>
+                    Number of Floor(s) <input type="text"  name="number" id="numFloor" /> <br>
+                    Number of Basement(s) <input type="text"  name="number" id="numBasement" /> <br>
+                    Number of Parkings(s) <input type="text"  name="number" id="numParking" /> <br>
+                    Number of Elevator(s) <input type="text"  name="number" id="numElevator" /> <br>
+                    Number of Commerce(s) <input type="text"  name="number" id="numCommerce" /> <br>
+                    Number of Enterprise(s) <input type="text"  name="number" id="numEnterprise" /> <br>
+                    Number Max of Occupancy per floor <input type="text"  name="number" id="numMaxOccupancyPerFloor" /> <br>
+                    Number of hour(s) of Activity <input type="text"  name="number" id="numHourActivity" /> -->
+                    <br>
 
-					<h3>Call now at <span><!--<strong>-->1-581-701-0303</strong></span></h3>
-					<p class="font-lato fs-20">
-						We truly care about our users and our product.
-					</p>
-					
-					<a href="page-contact-1.html" class="btn btn-danger btn-lg btn-round mt-30">CONTACT US NOW</a>
+                    <!--var numAppartment = math.ceil(00
+                    var typeOfBuilding = ["residential", "commercial", "corporate", "hybrid"];
+                    var numFloor = math.ceil(0)
+                    var numBasement = math.ceil(0)
+                    var numParking = math.ceil(0)
+                    var numCommerce = math.ceil(0)
+                    var numEnterprise = math.ceil(0)
+                    var numMaxOccupancyPerFloor = math.ceil(0)
+                    var numHourActivity = math.ceil(0)-->
+                    <br>
+                     
 
-				</div>
+                    <!-- After IFS - need to fill numbers of floor etc-->
 
-			</div>
-			<!-- /CALLOUT -->
+                  <!-- Name of radio button for this section - selectedRange-->  
+                 <label >Select from our range</label> 
+                 
+                    <input type="radio"  name="selectedRange" value="Standard"
+                    onclick="calculateTotal()" />
+                    Standard
+                    <input type="radio"  name="selectedRange" value="Premium"
+                    onclick="calculateTotal()" />
+                    Premium
+                    <input type="radio"  name="selectedRange" value="Excelium"
+                    onclick="calculateTotal()" />
+                    Excelium
+
+                    <!--<option value="Standard">Standard (7 565$ + 10% installation)</option>
+                    <option value="Premiuim">Premium (12 345$ + 13% installation))</option>
+                    <option value="Custard">Custard($5)</option>
+                    <option value="Fudge">Fudge($7)</option>
+                    <option value="Mocha">Mocha($8)</option>
+                    <option value="Raspberry">Raspberry($10)</option>
+                    <option value="Pineapple">Pineapple($5)</option>
+                    <option value="Dobash">Dobash($9)</option>
+                    <option value="Mint">Mint($5)</option>
+                    <option value="Cherry">Cherry($5)</option>
+                    <option value="Apricot">Apricot($8)</option>
+                    <option value="Buttercream">Buttercream($7)</option>
+                    <option value="Chocolate Mousse">Chocolate Mousse($12)</option>-->
+                </select>
+                 <br/>
+
+                 <br>
+            <p>
+                 <label for='includecandles' class="inlinelabel">
+                 Include Candles($5)</label>
+                 <input type="checkbox" id="includecandles" name='includecandles'
+                 onclick="calculateTotal()" />
+            </p>
+              
+            <p>
+                 <label class="inlinelabel" for='includeinscription'>
+                 Include Inscription($20)</label>
+                 <input type="checkbox" id="includeinscription"
+                 name="includeinscription" onclick="calculateTotal()" />
+              
+                 <input type="text"  id="theinscription"
+                 name="theinscription" value="Enter Inscription"  />
+            </p>
+                 <div id="totalPrice"></div>
+              
+                 </fieldset>
+             </form>
+            </div>
+        </section> 
 
 
 			<!-- FOOTER -->
