@@ -198,38 +198,45 @@
 
 			</div>
 
-			<!--Quotation Form -->
-			<section>
-                <div class="container">
+            <!-- QUOTATION FORM -->
+            
+            <!--<section>-->
+
+            <form>
+                <li>
+               <h1>Quotation form</h1></li>
+                <fieldset> 
+                    <!--<legend>GET YOUR QUOTE</legend>-->
+                        <label>Type of building</label>
+                        <p>
+                           <!--<section>-->
+                                    <input type="radio"  name="type" value="residential" checked/>
+                                    Residential
+                                    <input type="radio"  name="type" value="commercial"/>
+                                    Commercial
+                                    <input type="radio"  name="type" value="corporate"/>
+                                    Corporate
+                                    <input type="radio"  name="type" value="hybrid"/>
+                                    Hybrid
+                            <!--</section>-->
+                           </p>
+                            var type = type(residential)
+                            var type = type(commercial)
+                            var type = type(corporate)
+                            var type = type(hybrid)
                 
-                <form action="" id="elevatorquoteform" onsubmit="return false;">
-                var theForm = document.forms["elevatorquoteform"];
+                if (condition){
+                    <input type = "text" name = "Number of appartment(s)">
+                    <input type = "text" name = "Number of floor(s)">
+                    <input type = "text" name = "Number of basement(s)">
+                }  
 
-                <fieldset>
+            </form>
+        <!--</section>-->
 
-                    <legend>GET YOUR QUOTE</legend>
-
-                    <!-- Type of Building-->
-                    <!-- Name of radio button for this section - typeOfBuilding-->
-                    <label >Type of building</label>
-
-                <p>
-                    <input type="radio"  name="typeOfBuilding" value="residential"
-                     />
-                    Residential
-                    <input type="radio"  name="typeOfBuildingg" value="commercial"
-                    />
-                    Commercial
-                    <input type="radio"  name="typeOfBuilding" value="corporate"
-                     />
-                    Corporate
-                    <input type="radio"  name="typeOfBuilding" value="hybrid"
-                     />
-                    Hybrid
-                </p>
-                   
-                <script> 
+                    <!--<div class="container">
                 
+                    <form action="" id="elevatorquoteform">
                         var typeOfBuilding = typeOfBuilding(residential)
                         var typeOfBuilding = typeOfBuilding(commercial)
                         var typeOfBuilding = typeOfBuilding(corporate)
@@ -238,7 +245,13 @@
                         var typeOfBuilding(commercial) = 0
                         var typeOfBuilding(corporate) = 0
                         var typeOfBuilding(hybrid) = 0
-                    
+                </form>-->
+                                
+
+                 
+                   
+                <script> 
+                                    
                         if(typeOfBuilding = typeOfBuilding(residential){  
                             <input type="text"  id="numAppartment" name="Number of appartment" value="Enter Inscription"  />
                         }  
