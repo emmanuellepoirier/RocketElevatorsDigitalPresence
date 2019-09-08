@@ -52,6 +52,7 @@
 	-->
 	<body class="smoothscroll enable-animation">
 
+
 		<!-- SLIDE TOP -->
 		<div id="slidetop">
 
@@ -202,14 +203,13 @@
             
             <!--<section>-->
 
-            <form>
-                <li>
+            <form><li>
                <h1>Quotation form</h1></li>
                 <fieldset> 
                     <!--<legend>GET YOUR QUOTE</legend>-->
                         <label>Type of building</label>
-                        <p>
-                           <!--<section>-->
+                            <p>
+                           <!-- Name of radio button - type-->  
                                     <input type="radio"  name="type" value="residential" checked/>
                                     Residential
                                     <input type="radio"  name="type" value="commercial"/>
@@ -218,90 +218,24 @@
                                     Corporate
                                     <input type="radio"  name="type" value="hybrid"/>
                                     Hybrid
-                            <!--</section>-->
                            </p>
-                            var type = type(residential)
-                            var type = type(commercial)
-                            var type = type(corporate)
-                            var type = type(hybrid)
-                
-                if (condition){
-                    <input type = "text" name = "Number of appartment(s)">
-                    <input type = "text" name = "Number of floor(s)">
-                    <input type = "text" name = "Number of basement(s)">
-                }  
-
-            </form>
-        <!--</section>-->
-
-                    <!--<div class="container">
-                
-                    <form action="" id="elevatorquoteform">
-                        var typeOfBuilding = typeOfBuilding(residential)
-                        var typeOfBuilding = typeOfBuilding(commercial)
-                        var typeOfBuilding = typeOfBuilding(corporate)
-                        var typeOfBuilding = typeOfBuilding(hybrid)
-                        var typeOfBuilding(residential) = 0
-                        var typeOfBuilding(commercial) = 0
-                        var typeOfBuilding(corporate) = 0
-                        var typeOfBuilding(hybrid) = 0
-                </form>-->
-                                
-
-                 
+                <script>
+                    If (conditiond){
+                        <input= "text" name= "Number of Appartment(s)">
+                        <input= "text" name= "Number of Floor(s)">
+                        <input= "text" name= "Number of Basement(s)">
+                    }
+                </script>
                    
-                <script> 
-                                    
-                        if(typeOfBuilding = typeOfBuilding(residential){  
-                            <input type="text"  id="numAppartment" name="Number of appartment" value="Enter Inscription"  />
-                        }  
-
-                        </script> 
-
-                    <!-- 1 - If Statement- Residential - numAppartment; numFloor; numBasement-->
-                    <!-- 1 - If Statement- Commercial - numCommerce; numFloor; numBasement; numParking; numElevator-->
-                    <!-- 1 - If Statement- Corporate - numEnterprise; numFloor; numBasement; numParking; numMaxOccupancyPerFloor-->
-                    <!-- 1 - If Statement- Hybrid - numCommerce; numFloor; numBasement; numParking; numMaxOccupancyPerFloor; numHourActivity (max 24h)-->
-                <!-- } { -->
-
-                   
-                    <!--Number of Appartment(s) <input type="text"  name="number" id="numAppartment" /> <br>
-                    Number of Floor(s) <input type="text"  name="number" id="numFloor" /> <br>
-                    Number of Basement(s) <input type="text"  name="number" id="numBasement" /> <br>
-                    Number of Parkings(s) <input type="text"  name="number" id="numParking" /> <br>
-                    Number of Elevator(s) <input type="text"  name="number" id="numElevator" /> <br>
-                    Number of Commerce(s) <input type="text"  name="number" id="numCommerce" /> <br>
-                    Number of Enterprise(s) <input type="text"  name="number" id="numEnterprise" /> <br>
-                    Number Max of Occupancy per floor <input type="text"  name="number" id="numMaxOccupancyPerFloor" /> <br>
-                    Number of hour(s) of Activity <input type="text"  name="number" id="numHourActivity" /> -->
-                    <br>
-
-                    <!--var numAppartment = math.ceil(00
-                    var typeOfBuilding = ["residential", "commercial", "corporate", "hybrid"];
-                    var numFloor = math.ceil(0)
-                    var numBasement = math.ceil(0)
-                    var numParking = math.ceil(0)
-                    var numCommerce = math.ceil(0)
-                    var numEnterprise = math.ceil(0)
-                    var numMaxOccupancyPerFloor = math.ceil(0)
-                    var numHourActivity = math.ceil(0)-->
-                    <br>
-                     
-
-                    <!-- After IFS - need to fill numbers of floor etc-->
-
-                  <!-- Name of radio button for this section - selectedRange-->  
-                 <label >Select from our range</label> 
+                  <!-- Name of radio button - range-->  
+                         <label >Select from our range</label> 
                  
-                    <input type="radio"  name="selectedRange" value="Standard"
-                    onclick="calculateTotal()" />
-                    Standard
-                    <input type="radio"  name="selectedRange" value="Premium"
-                    onclick="calculateTotal()" />
-                    Premium
-                    <input type="radio"  name="selectedRange" value="Excelium"
-                    onclick="calculateTotal()" />
-                    Excelium
+                                    <input type="radio"  name="range" value="Standard"" />
+                                    Standard
+                                    <input type="radio"  name="range" value="Premium"/>
+                                    Premium
+                                    <input type="radio"  name="range" value="Excelium"/>
+                                    Excelium
 
                     <!--<option value="Standard">Standard (7 565$ + 10% installation)</option>
                     <option value="Premiuim">Premium (12 345$ + 13% installation))</option>
@@ -342,7 +276,7 @@
              </form>
             </div>
         </section> 
-
+    </form>
 
 			<!-- FOOTER -->
 			<footer id="footer">
