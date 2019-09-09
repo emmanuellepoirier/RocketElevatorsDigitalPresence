@@ -157,7 +157,7 @@
 								-->
 								<ul id="topMain" class="nav nav-pills nav-main nav-onepage">
 									<li class="active"><!-- HOME -->
-										<a href="index.html#home">
+										<a href="index.html#">
 											HOME
 										</a>
 									</li>
@@ -208,25 +208,47 @@
                 <fieldset> 
                     <!--<legend>GET YOUR QUOTE</legend>-->
                         <label>Type of building</label>
-                            <p>
-                           <!-- Name of radio button - type-->  
-                                    <input type="radio"  name="type" value="residential" checked/>
-                                    Residential
-                                    <input type="radio"  name="type" value="commercial"/>
-                                    Commercial
-                                    <input type="radio"  name="type" value="corporate"/>
-                                    Corporate
-                                    <input type="radio"  name="type" value="hybrid"/>
-                                    Hybrid
-                           </p>
-                <script>
-                    If (conditiond){
-                        <input= "text" name= "Number of Appartment(s)">
-                        <input= "text" name= "Number of Floor(s)">
-                        <input= "text" name= "Number of Basement(s)">
-                    }
-                </script>
-                   
+						 <!--
+				<select id="selBooks" name="books">
+        				<option value=""></option>
+        				<option value="Stategies Unplugged">Stategies Unplugged</option>
+        				<option value="jQuery Reference">jQuery Reference</option>
+        				<option value="HTML5 Fundamentals">HTML5 Fundamentals</option>
+        				<option value="Popular Science">Popular Science</option>
+    			</select>
+
+    <input type="submit" id="submit" value="Submit" />
+						 -->
+						<select>
+						   <!-- Name of radio button (id) - building_type-->  
+							<div>
+								<input type="radio"  name="building_type" value="residential" checked/>
+								Residential
+							</div>
+						
+							<div>
+								<input type="radio"  name="building_type" value="commercial"/>
+								Commercial
+							</div>
+
+							<div>
+                                <input type="radio"  name="building_type" value="corporate"/>
+								Corporate
+							</div>
+
+							<div>		
+								<input type="radio"  name="building_type" value="hybrid"/>
+                                hybrid			
+							</div>
+
+							<div>
+								<input type="radio"  name="building_type" value="hybrid"/>
+								Hybrid
+							</div>
+                          
+					</sélect>
+
+                    
                   <!-- Name of radio button - range-->  
                          <label >Select from our range</label> 
                  
